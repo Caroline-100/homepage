@@ -1,0 +1,283 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    border-style: outset;
+    box-shadow: inset olive;
+}
+
+.header__div_flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-style: inset;
+}
+
+.header__nav {
+    width: 100%;
+    height: 450px;
+    border-style: inset;
+    color: goldenrod;
+    border: red 10px;
+    text-align: center;
+    padding-top: 100px;
+    text-decoration: underline overline olive;
+    /* position: sticky    ; */
+}
+
+.header__div__h1_decoration {
+    text-decoration: overline underline olive;
+    width: 80%;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    text-shadow: 1px .1px .5px plum;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+/* nav class = "header__nav"*/
+
+/* h2 class = "" */
+
+/* p class="header__nav__p" */
+
+/* label class = header__nav__label_for-site-search */
+
+/* header__nav__input class= "header__nav__label__input_for-site-search" */
+
+/* button class= "header__nav__button_search" */
+
+/* ul class= "header__nav__ul_menu-bar-flex" */
+
+/* ul class= "header__nav__ul_menu-bar-flex" */
+
+/* old .container */
+
+.header__nav__ul_menu-bar-flex {
+    display: flex;
+    flex-direction: row;
+    border-style: inset;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    list-style: none;
+}
+
+/* li class= "header__nav__ul_item-element" */
+
+/* 
+ceci est une class que j ai cree dans ma balise
+html
+*/
+
+.href {
+    size: 2rem;
+    border: thick double red;
+    block-size: auto;
+}
+
+/* li class= "header__nav__ul_item" */
+
+/* li class= "header__nav__ul_item_element" */
+
+.header__nav__ul_item-element {
+    list-style-type: none;
+}
+
+.header__nav__ul_item-element-link {
+    text-decoration: underline overline olive;
+    color: goldenrod;
+}
+
+.header__nav__ul_item-element-link:hover {
+    color: olive;
+}
+
+/* ul class= "header__nav__block-ul__li__ul_under-element" */
+
+/* li class= "header__nav__block-ul__li__block-ul__under-element_under-item" */
+
+.header__nav__block-ul__li__ul_under-element {
+    display: none;
+}
+
+/* ul class= "header__nav__block-ul__li__ul_under-element" */
+
+/* li class= "header__nav__ul_item-element" */
+
+/* .container_dropdown:hover  */
+
+/* .header__nav
+.header__nav__ul_menu-bar-flex
+.header__nav__ul_item-element */
+
+.header__nav>.header__nav__ul_menu-bar-flex .header__nav__ul_item-element:focus-within .header__nav__block-ul__li__ul_under-element {
+    display: block;
+    box-shadow: 0px 1px 2px white;
+    background-color: white;
+    list-style: none;
+}
+
+/* ul class= "header__nav__block-ul__li__ul_under-element" */
+
+/* li class= "header__nav__ul_item-element" */
+
+.header__nav__block-ul__li__ul_under-element {
+    float: none;
+    /* z-index: 1000; */
+    position: absolute;
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.block_div__block_under_div {
+    display: flex;
+    flex-direction: column;
+    border-style: outset;
+    width: 50%;
+}
+
+.block_div__block_under_div:hover {
+    transform: scale(1.01);
+    position: relative;
+}
+
+.block-div_2p {
+    display: flex;
+    flex-direction: column;
+    border-style: outset;
+    width: 50%;
+    text-align: end;
+}
+
+.block_div__block_under_div:hover {
+    transform: scale(1.01);
+}
+
+.block-div_2p {
+    display: flex;
+    flex-direction: row;
+}
+
+.block-div {
+    display: flex;
+    transition: transform .2s;
+    /* Animation */
+    height: 200px;
+}
+
+.block-div_p {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    height: 193px;
+    margin-left: 10px;
+    text-decoration: inset;
+}
+
+.img_sand {
+    width: 30%;
+    display: flex;
+    border-style: outset;
+}
+
+.block-div_h5 {
+    display: block;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.block-div_2p {
+    border-style: outset;
+    display: flex;
+    text-align: end;
+}
+
+.block-div_em:hover {
+    color: olive;
+    transform: scale(1.01);
+}
+
+.block-div_em {
+    margin-top: -30px;
+    border: olive solid 2px;
+    height: 18%;
+    display: block;
+    background-color: goldenrod;
+}
+
+.end__block-div_block-div-h3 {
+    text-decoration: underline overline olive;
+    text-transform: uppercase;
+    color: goldenrod;
+}
+
+.block-div_block-div-img-kiss-change-color {
+    height: 100px;
+    width: 100px;
+    background-image: url("image/kiss-black.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.block-div_block-div-img-kiss-change-color:hover {
+    background-image: url("image/kiss-red.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.header__nav__button_search {
+    color: goldenrod;
+}
+
+.header__nav__button_search:active, .header__nav__button_search:focus {
+    outline: none;
+    border: 0.2em solid olive;
+    /* here configure as your needs */
+    text-decoration: overline goldenrod;
+}
+
+.end-p_block-p-strong-size-ON {
+    font-size: xx-large;
+}
+
+.block-div-pagination {
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+}
+
+.page {
+    border-style: inset;
+    padding: 2px;
+    color: goldenrod;
+    text-decoration: overline underline olive;
+}
+
+.block-ul_li-item {
+    list-style: none;
+}
+
+.h1_decoration {
+    text-decoration: overline underline olive;
+    width: 80%;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    text-shadow: 1px .1px .5px plum;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, sans-serif;
+}

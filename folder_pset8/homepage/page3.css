@@ -1,0 +1,175 @@
+.header__div_flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-style: inset;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+.header__nav {
+    width: 100%;
+    height: 380px;
+    border-style: inset;
+    color: goldenrod;
+    text-align: center;
+    text-decoration: underline overline olive;
+}
+
+.header__div__h1_decoration {
+    text-decoration: overline underline olive;
+    width: 80%;
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    text-shadow: 1px .1px .5px plum;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+.header__nav__ul_menu-bar-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 30px; */
+    list-style: none;
+}
+
+.href {
+    border: thick double red;
+}
+
+.header__nav__ul_item-element {
+    /* list-style-type: none; */
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.header__nav__ul_item-element-link {
+    text-decoration: underline overline olive;
+    color: goldenrod;
+}
+
+.header__nav__ul_item-element-link:hover {
+    color: olive;
+}
+
+.header__nav__block-ul__li__ul_under-element {
+    display: none;
+    padding: 0;
+}
+
+.header__nav>.header__nav__ul_menu-bar-flex .header__nav__ul_item-element:focus-within .header__nav__block-ul__li__ul_under-element {
+    display: block;
+    box-shadow: 0px 1px 2px white;
+    background-color: white;
+    list-style: none;
+}
+
+.header__nav__block-ul__li__ul_under-element {
+    position: absolute;
+    margin-top: 5px;
+    float: none;
+    /* padding: 3px; */
+}
+
+.block-div {
+    display: flex;
+    transition: transform .2s;
+    /* Animation */
+    height: 200px;
+    justify-items: center;
+}
+
+.block_div__block_under_div {
+    display: flex;
+    flex-direction: column;
+    border-style: outset;
+    width: 50%;
+}
+
+.block_div__block_under_div:hover {
+    transform: scale(1.01);
+    position: relative;
+}
+
+.flex_block_div {
+    display: flex;
+    justify-self: start;
+    flex-direction: row;
+}
+
+.block-div-pagination {
+    display: flex;
+    justify-content: end;
+    align-self: flex-end;
+}
+
+.page {
+    border-style: inset;
+    padding: 2px;
+    padding: 10px;
+    color: goldenrod;
+    text-decoration: overline underline olive;
+}
+
+.page:hover {
+    color: olive;
+}
+
+/* .articles {
+    margin: 100px;
+    padding: 50px;
+} */
+
+article {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 100px);
+    border-style: inset;
+    margin: 10px;
+    padding: 10px;
+}
+
+.first_paragraph {
+    grid-column: 1/13;
+    grid-row: 1/13;
+    color: goldenrod;
+}
+
+.second_paragraph {
+    grid-column: 1/13;
+    grid-row: 4/13;
+    color: goldenrod;
+}
+
+.third_paragraph {
+    grid-column: 1/13;
+    grid-row: 7/13;
+    color: goldenrod;
+}
+
+.text_flex_end_paragraph {
+    display: flex;
+    grid-column: 2/13;
+    color: black;
+}
+
+.text_flex_end {
+    display: flex;
+    grid-column: 2/13;
+}
+
+h5:hover {
+    text-decoration: underline olive;
+}
+
+.d-flex_flex-row {
+    list-style-type: none;
+}

@@ -1,141 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="nav_bar_page2.css">
-        <link rel="stylesheet" href="page2.css">
-        <title>pagetwo</title>
-    </head>
-    <body>
-        <img class="logo" src="image/logo-13.svg" alt="logo_page">
-        <nav class = "navbar">
-            <ul class = "navbar-nav">
-                <li class="nav_item has-dropdown">
-                    <a href="#">Homepage</a>
-                    <ul class="dropdown">
-                        <div class="container">
-                            <li class="dropdownitem">
-                                <a href="#">dark</a>
-                            </li>
-                            <br>
-                            <li class="dropdownitem">
-                                <a href="#">light</a>
-                                
-                            </li>
-                            <br>
-                            <li class="dropdownitem">
-                                <a href="#">sunrise</a>
-                            </li>
-                        </div>
-                    </ul>
-                </li>
-                <li class="nav_item has-dropdown">
-                    <a href="#">Phase 2</a>
-                    <ul class="dropdown">
-                        <li class="dropdownitem">
-                            <a href="#">pierre</a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="pageTwo.js"></script>
+
+    <title>Page2</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__div_flex">
+            <img src="image/logo-13.svg" alt="image logo">
+
+            <h1 class="header__div__h1_decoration">
+                Principal
+            </h1>
+        </div>
+
+        <nav class="header__nav">
+            <h2>Navigation Bar</h2>
+            <p class="header__nav_p">start by a list</p>
+            <!-- <label class="header__nav__label_for-site-search" for="site-search">Search -->
+            <input class="header__nav__label__input_for-site-search" type="text" name="name" id="input"
+                aria-label="Search through site content">
+            <button class="header__nav__button_search">Search</button>
+            <!-- </label> -->
+            <p class=textinput></p>
+
+            <ul class="header__nav__ul_menu-bar-flex">
+                <li class="header__nav__ul_item-element">
+                    <a class="header__nav__ul_item-element-link" href="#">
+                        ELEMENT I
+                    </a>
+
+                    <ul class="header__nav__block-ul__li__ul_under-element">
+
+                        <li class="item_dropdown">
+                            <a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
                         </li>
-                        <br>
-                        <li class="dropdownitem">
-                         <a href="#">feuille</a>            
-                         </li>
-                         <br>
-                        <li class="dropdownitem">
-                         <a href="#">ciseau</a>       
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
                         </li>
-                    </ul>
-                </li>
-                <li class="nav_item has-dropdown">
-                    <a href="#">Phase 3</a>
-                    <ul class="dropdown"x>
-                    <li class="dropdownitem">
-                        <a href="#">regle</a>
-                    </li>
-                    <br>
-                    <li class="dropdownitem">
-                        <a href="#">rapporteur</a>
-                    </li>
-                    <br>
-                    <li class="dropdownitem">
-                        <a href="#">equerre</a>
-                    </li>   
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
                     </ul>
                 </li>
 
-                <!-- <li class="nav_item">page3</li> -->
+                <li class="header__nav__ul_item-element">
+
+                    <a class="header__nav__ul_item-element-link" href="#">
+                        ELEMENT II
+                    </a>
+
+                    <ul class="header__nav__block-ul__li__ul_under-element">
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="header__nav__ul_item-element">
+
+                    <a class="header__nav__ul_item-element-link" href="#">
+                        ELEMENT III</a>
+
+                    <ul class="header__nav__block-ul__li__ul_under-element">
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+
+                    </ul>
+                <li class="header__nav__ul_item-element">
+                    <a class="header__nav__ul_item-element-link" href="#">
+                        ELEMENT IV</a>
+                    <ul class="header__nav__block-ul__li__ul_under-element">
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+
+                        <li class="item_dropdown"><a class="header__nav__ul_item-element-link" href="#">petit
+                                element</a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-                <p>WHY CAROTTE</p>
-            </button>
-            <img class = "model" src="image/model.jpg" alt="symbole">
-            <button>
-                <img src="image/call-24px.svg" alt="">
+    </header>
+    <svg>
+        <rect>
+        </rect>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">
+            ELEMENT IN A BOX Change color
+        </text>
+    </svg>
+    <div class="block_div">
+
+        <div class="block_div__block_under_div">
+
+            <p><strong class="block_div__block_under_div__p-strong">Petite animation sur les box des
+                    paragraphes</strong></p>
+            <p class="block_div__block_under_div__p">
+                Mon paragraphe va etre dans une box, il sera dans la balise div.<br>
+                Je veux qu il ne PAS PAS Sprenne pas l ensemble de la page. BAsique je vais prendre 50% de la
+                page
+                puis je mettre une seconde box.
                 <br>
-                <p class="num">0088606665</p>
-            </button>
-        </nav>
-        <header>
-            <h1>
-                Festa P2
-            </h1>
-            <img id ="vegetables"  src="image/vegetables.jpg" alt="image de carottes">  
-            <div id ="box">
-                <div class="idimageandtext">
-                    <img class="logo_bar" src="image/cooking.png" alt="logo_page">
-                    <p class="textnature">
-                        cook
-                        <br>
-                        home
-                    </p>
-                </div>
-                <div class="idimageandtext">
-                    <img class="logo_bar" src="image/vegetables.jpg" alt="logo_page">
-                    <p class="textnature">
-                        cook
-                        <br>
-                        home
-                    </p>
-                </div>
-                <div class="idimageandtext">
-                    <img class="logo_bar" src="image/vegetables-575615_640.png" alt="logo_page">
-                    <p class="textnature">
-                        garden
-                        <br>
-                        out
-                    </p>
-                </div>
-                <div class="idimageandtext">
-                    <img class="logo_bar" src="image/sand.jpg" alt="logo_page">
-                    <p class="textnature">
-                        sand
-                        <br>
-                        carott
-                    </p>
-                </div>
-                <div class="idimageandtext">
-                    <img class="logo_bar" src="image/vegetables-575615_640.png" alt="logo_page">
-                    <p class="textnature">
-                        garden
-                        <br>
-                        out
-                    </p>
-                </div>
-            </div>
-        </header>
-        <article>
-            <img class = "duck" src="image/duck.jpg" alt="duck">
-            <h3 class="h3duck">
-                This is a history of duck in a pool
-            </h3>
-            <p class = "pduck">
-                text Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deleniti nemo facere consequuntur doloremque nesciunt. <br>
-                Sapiente iste animi obcaecati, adipisci necessitatibus consequatur praesentium itaque reprehenderit quia. Cum sit iste consequuntur.
             </p>
-    </article>
-    <li class="page-item"><a class = "page-link" href="note.html">come to page four</a></li>
-    </body>
+            <ol class="block_div__block_under_div__p__block-ol">
+
+                <li class="block_div__block_under_div__p__block-ol_li-item">
+                    facile a lire
+                </li>
+                <li class="block_div__block_under_div__p__block-ol_li-item">
+                    facile a manipuler avec flex-box css
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <p class="text_open_js">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias officia asperiores rerum fugiat!
+        Tempora voluptatibus dolorum voluptatem, quisquam labore ratione minima maiores temporibus nulla
+        corporis incidunt iusto natus veritatis quaerat!
+        <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, accusamus nesciunt excepturi velit voluptate
+        quae et! Consectetur soluta nemo aperiam veniam, laudantium in eveniet molestiae! Deserunt sunt aspernatur
+        earum nemo.
+        <br>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eveniet minima quaerat quibusdam provident
+        dolore nobis beatae dolores, perferendis, earum, et quae ullam architecto repellat dolorum non vel! Nobis,
+        accusamus.
+    </p>
+    <!-- </div> -->
+    <div class="big_div">
+        <h1>Click on tic or tac</h1>
+        <div class='tesx'>
+            <p class="tic">tic</p>
+            <p class="tac">tac</p>
+            <p class="tic">tic</p>
+            <p class="tac">tac</p>
+            <p class="tic">tic</p>
+            <p class="tac">tac</p>
+            <p class="tic">tic</p>
+            <p class="tac">tac</p>
+        </div>
+        <div class='dif'>
+            <p class="tic">tic</p>
+            <p class="tac">tac</p>
+            <p class="tic">tic</p>
+            <p class="tac">tac</p>
+            <p class="tic">tic</p>
+            <p class="tac">tac</p>
+            <p class="tic">tic</p>
+            <p class="tac">tac</p>
+        </div>
+    </div>
+    <div class="block-div-pagination">
+        <a href="pageone.html" class="page">1</a>
+        <a href="page_two.html" class="page">2</a>
+        <a href="page_tree.html" class="page">3</a>
+        <a href="page_four.html" class="page">4</a>
+    </div>
+    <div>
+        <h1>FIN</h1>
+    </div>
+</body>
+
 </html>
